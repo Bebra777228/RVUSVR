@@ -38,11 +38,10 @@ uvicorn>=0.21.1
 colorama>=0.4.5
 pyworld==0.3.2
 httpx
-onnxruntime; sys_platform == 'darwin'
-onnxruntime-gpu; sys_platform != 'darwin'
+onnxruntime-directml
 torchcrepe==0.0.20
 fastapi==0.88
-torchfcpe
 ffmpy==0.3.1
 python-dotenv>=1.0.0
 av
+torchfcpe
